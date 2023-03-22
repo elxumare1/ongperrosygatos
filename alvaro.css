@@ -2,33 +2,29 @@
 
 div{
 
-    flex-direction: column;
-
 
 }
 
 .img1{
 
-    flex-direction: column;
+    
     height: 300px;
     width: 300px;
-    
+    margin-top: 100px;
     
 }
 .img2{
     float:unset;
-    flex-direction: column;
     height: 300px; 
     width: 300px;
-    
+    margin-left: 210px;
 
 }
 .img3{
-    flex-direction: column;
     float: right;
     height: 300px;
     width: 300px;    
-    ;
+    margin-top: 99px   ;
     
 }
 
