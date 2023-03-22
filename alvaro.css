@@ -1,0 +1,39 @@
+
+
+div{
+
+    flex-direction: column;
+
+
+}
+
+.img1{
+
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    
+    
+}
+.img2{
+    float:unset;
+    flex-direction: column;
+    height: 300px; 
+    width: 300px;
+    
+
+}
+.img3{
+    flex-direction: column;
+    float: right;
+    height: 300px;
+    width: 300px;    
+    ;
+    
+}
+
+body{
+
+
+    background-color: rgba(0, 255, 255, 0.336);
+}
