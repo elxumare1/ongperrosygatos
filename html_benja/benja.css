@@ -1,0 +1,12 @@
+.colorfondo{
+    background-color: rgba(203, 254, 254, 0.979);
+    margin: 0px;
+}
+.perrosmain{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 2px 5px 8px rgba(0, 0, 0, 0.406);
+    font-family: 'Segoe UI', Tahoma, cursive, Verdana, sans-serif;
+}
