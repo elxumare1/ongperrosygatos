@@ -1,4 +1,31 @@
 /* ESTA MEDIDA ES PARA IPHONE X*/
 @media screen and (max-width: 800px) {
+}
+header{
+    background-color: beige;
+}
+nav{
+    display:list-item;
+}
+
+.ul-cont{
+    background-color: rgb(210, 174, 118);
+    margin-block: 0%;
+    display: inline;
     
+}
+.li-cont{
+    display: table-cell;
+    padding: 20px;
+    text-align: center;
+    
+    
+}
+.a-cont-li{
+    text-decoration: none;
+    color: white;
+    display: flex;
+}
+.a-cont-li:hover{
+    color: black;
 }
