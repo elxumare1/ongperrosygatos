@@ -108,22 +108,24 @@ li:hover{
 }
 
 
-@media (max-whidth:400px){
 
 
-    .cont-ul{
-
-        flex-direction: row;
-
-    }
-
-    li{
 
 
-        flex-direction: column;
-        
-    }
-    
+.cards{
+
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+
 }
 
-    
+
+.card{
+
+
+    min-height: 200px;
+    background-color: aquamarine;
+    border-radius: 90px;
+}
