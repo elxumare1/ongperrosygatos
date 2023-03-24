@@ -77,7 +77,7 @@ body{
     
     min-height: 90x;
     
-    background-color: rgb(0, 122, 126);
+   
     margin: 0px;
     padding: 0px;
     display: flex;
@@ -85,17 +85,12 @@ body{
     align-items: center;
 }
 
-.img{
 
-    flex-direction: column;
-
-
-}
 li{
     display: flex;
     position: static;
     list-style: none;
-     background-color: rgb(0, 122, 126);
+     
     cursor: pointer;
     padding: 20px 100px;
     transition: all 0.5s ease 0s;
@@ -103,27 +98,42 @@ li{
     
 
 li:hover{
-    background-color: rgb(0, 164, 186);
     
 }
 
 
-@media (max-whidth:400px){
 
 
-    .cont-ul{
 
-        flex-direction: row;
 
-    }
 
-    li{
+.cards{
 
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+
+}
+
+
+.card{
+
+
+    min-height: 200px;
+    background-color: aquamarine;
+    border-radius: 100px;
+}
+
+
+@media screen and (max-width: 800px) {
+
+
+    div{
 
         flex-direction: column;
-        
     }
-    
+
 }
 
-    
+
