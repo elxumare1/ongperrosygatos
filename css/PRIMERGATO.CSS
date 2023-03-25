@@ -1,4 +1,36 @@
-.textoGato{
-    padding-top: 100px;
-    padding-left: 400px;
+.imgprimerGato{
+    padding-top: 10px;
+    padding-left: 100px;
 }
+
+
+.textonombreGato{
+    margin-left: 70px;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 10px 10px rgba(0, 0, 0, 0.521);
+    font-size: 40px;
+    text-transform: uppercase;
+    background-color: #000000;
+    border-radius: 35px;
+    display: inline-block;
+    padding: 10px 30px;
+}
+
+
+
+
+.textodescripciongato{
+
+    margin-left: 500px;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 10px 10px rgba(81, 120, 112, 0.6);
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: #336e57;
+    border-radius: 35px;
+   display: inline-block;
+    padding: 2px 2px; 
+    
+    
+}
+
