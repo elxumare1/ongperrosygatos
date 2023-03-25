@@ -23,20 +23,64 @@
 
 .textodescripciongato{
 
-    margin-top: 20%;
+    margin-top: 10%;
     color: rgb(234, 234, 234);
     text-shadow: 5px 10px 10px rgb(0, 0, 0);
     font-size: 30px;
-    text-transform: uppercase;
+    border-radius: 20px;
    
-    
+   padding: 35px 25px;
     
 }
 
+.textodescripciongato:hover{
+    
+    transition: all 0.5s;
+    background-color: rgb(86, 52, 15);
 
+}
 
 .imgprimerGato:hover{
 
   
 }
 
+.containerr{
+
+display: flex;
+
+}
+
+.cardd{
+
+
+    border-radius: 20px;
+    margin-left: 10px;
+    height: 200px;
+    background-color:#fff ;
+    flex: 1;
+    transition: .3s all ease;
+    
+}
+
+.slider{
+    width: 50%;
+
+
+}
+
+.slider ul{
+    
+    width: 1350%;
+    display: flex;
+    padding: 0;
+
+}
+
+.slider li{
+
+    width: 50%;
+    list-style: none;
+
+
+}
