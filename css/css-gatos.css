@@ -87,6 +87,7 @@ nav{
     color: white;
     text-shadow: 5px 10px 10px rgba(0, 0, 0, 0.521);
     font-size: 40px;
+    margin-top: -150px;
     text-transform: uppercase;
 }
 .banner-text p{
